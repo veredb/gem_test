@@ -5,9 +5,10 @@ gem 'rails', '4.0.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
-gem 'postgres-copy'
-gem 'pg_data_encoder'
+gem "postgres-copy", "~> 0.8.0"
+gem 'pg_data_encoder', "~> 0.1.0"
 gem 'activerecord'
+#gem "activerecord", "~> 4.0.2"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

@@ -121,8 +121,8 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   pg
-  pg_data_encoder
-  postgres-copy
+  pg_data_encoder (~> 0.1.0)
+  postgres-copy (~> 0.8.0)
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
