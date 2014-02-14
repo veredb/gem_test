@@ -1,6 +1,6 @@
 class ExamsController < ApplicationController
   def index
-#     @exams = Exam.all
+     @exams = Exam.all
   end
  
 end

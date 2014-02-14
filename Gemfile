@@ -1,14 +1,16 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
-gem "postgres-copy", "~> 0.8.0"
+gem "activesupport", "~> 4.0.0"
+gem "postgres-copy", "<= 0.6.0"
 gem 'pg_data_encoder', "~> 0.1.0"
 gem 'activerecord'
 #gem "activerecord", "~> 4.0.2"
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (4.0.0)
       actionpack (= 4.0.0)
@@ -55,10 +55,10 @@ GEM
     pg (0.17.1)
     pg_data_encoder (0.1.0)
     polyglot (0.3.3)
-    postgres-copy (0.8.0)
-      activerecord (~> 4.0)
+    postgres-copy (0.6.0)
+      activerecord (>= 3.0.0)
       pg
-      rails (~> 4.0)
+      rails (>= 3.0.0)
       responders
     rack (1.5.2)
     rack-test (0.6.2)
@@ -117,12 +117,13 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  activesupport (~> 4.0.0)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   pg
   pg_data_encoder (~> 0.1.0)
-  postgres-copy (~> 0.8.0)
+  postgres-copy (<= 0.6.0)
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
